@@ -1,0 +1,1580 @@
+{
+  "departments": [
+    {
+      "id": "dept-cse",
+      "name": "School of Computer Engineering & Technology",
+      "code": "SCET"
+    },
+    {
+      "id": "dept-mech",
+      "name": "School of Mechanical Engineering",
+      "code": "SME"
+    },
+    {
+      "id": "dept-mgmt",
+      "name": "School of Management & Business Studies",
+      "code": "SMBS"
+    }
+  ],
+  "users": [
+    {
+      "id": "u-student-1",
+      "email": "student@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Student",
+      "full_name": "Yuvraj Gaikwad",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:00:55.914Z"
+    },
+    {
+      "id": "u-faculty-1",
+      "email": "faculty@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Faculty",
+      "full_name": "Dr. Ananya Sharma",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:00:55.916Z"
+    },
+    {
+      "id": "u-hod-1",
+      "email": "hod@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "HOD",
+      "full_name": "Prof. Rajesh Kulkarni",
+      "avatar_url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:00:55.917Z"
+    },
+    {
+      "id": "u-admin-1",
+      "email": "admin@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Admin",
+      "full_name": "Sanjivani ERP Admin",
+      "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:00:55.917Z"
+    },
+    {
+      "id": "u-student-2",
+      "email": "priya@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Student",
+      "full_name": "Priya Sharma",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:51:59.231Z"
+    },
+    {
+      "id": "u-student-3",
+      "email": "rohan@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Student",
+      "full_name": "Rohan Kulkarni",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:51:59.241Z"
+    },
+    {
+      "id": "u-student-4",
+      "email": "sneha@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Student",
+      "full_name": "Sneha Patil",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:51:59.242Z"
+    },
+    {
+      "id": "u-student-5",
+      "email": "aditya@sanjivani.edu.in",
+      "password_hash": "password123",
+      "role": "Student",
+      "full_name": "Aditya Deshmukh",
+      "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80",
+      "created_at": "2026-09-03T14:51:59.243Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "stu-1",
+      "user_id": "u-student-1",
+      "roll_number": "2024-CSE-042",
+      "prn_number": "SU20240901",
+      "department_id": "dept-cse",
+      "program": "B.Tech Computer Engineering",
+      "academic_year": "2024-2025",
+      "year_level": "Third Year",
+      "semester": "Semester 5",
+      "division": "Division A",
+      "photo_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80"
+    },
+    {
+      "id": "stu-2",
+      "user_id": "u-student-2",
+      "roll_number": "2024-CSE-018",
+      "prn_number": "SU20240902",
+      "department_id": "dept-cse",
+      "program": "B.Tech Computer Engineering",
+      "academic_year": "2024-2025",
+      "year_level": "Third Year",
+      "semester": "Semester 5",
+      "division": "Division A",
+      "photo_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=250&q=80"
+    },
+    {
+      "id": "stu-3",
+      "user_id": "u-student-3",
+      "roll_number": "2024-MECH-029",
+      "prn_number": "SU20240903",
+      "department_id": "dept-mech",
+      "program": "B.Tech Mechanical Engineering",
+      "academic_year": "2024-2025",
+      "year_level": "Third Year",
+      "semester": "Semester 5",
+      "division": "Division B",
+      "photo_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80"
+    },
+    {
+      "id": "stu-4",
+      "user_id": "u-student-4",
+      "roll_number": "2024-MGMT-005",
+      "prn_number": "SU20240904",
+      "department_id": "dept-mgmt",
+      "program": "MBA Business Analytics",
+      "academic_year": "2024-2025",
+      "year_level": "Second Year",
+      "semester": "Semester 3",
+      "division": "Division A",
+      "photo_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=250&q=80"
+    },
+    {
+      "id": "stu-5",
+      "user_id": "u-student-5",
+      "roll_number": "2024-CSE-077",
+      "prn_number": "SU20240905",
+      "department_id": "dept-cse",
+      "program": "B.Tech Computer Engineering",
+      "academic_year": "2024-2025",
+      "year_level": "Third Year",
+      "semester": "Semester 5",
+      "division": "Division B",
+      "photo_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-1",
+      "user_id": "u-faculty-1",
+      "employee_id": "FAC-CSE-102",
+      "department_id": "dept-cse",
+      "designation": "Associate Professor & Activity Coordinator"
+    },
+    {
+      "id": "fac-hod",
+      "user_id": "u-hod-1",
+      "employee_id": "HOD-CSE-001",
+      "department_id": "dept-cse",
+      "designation": "Head of Department & Professor"
+    },
+    {
+      "id": "act-1",
+      "user_id": "stu-1",
+      "employee_id": "National Smart India Hackathon 2024",
+      "department_id": 4,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-2",
+      "user_id": "stu-1",
+      "employee_id": "AWS Certified Solutions Architect Associate",
+      "department_id": 12,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-3",
+      "user_id": "stu-1",
+      "employee_id": "Inter-University Cricket Championship",
+      "department_id": 1,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-4",
+      "user_id": "stu-1",
+      "employee_id": "Annual TechFest - Lead Student Organizer",
+      "department_id": 18,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-5",
+      "user_id": "stu-1",
+      "employee_id": "NSS Blood Donation & Health Camp Drive",
+      "department_id": 15,
+      "designation": "Participation"
+    },
+    {
+      "id": "act-6",
+      "user_id": "stu-1",
+      "employee_id": "International Conference on Machine Learning (ICML) Workshop",
+      "department_id": 11,
+      "designation": "Participation"
+    },
+    {
+      "id": "act-7",
+      "user_id": "stu-1",
+      "employee_id": "State Level Research Paper Presentation",
+      "department_id": 7,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-eaaca53a-5fdf-4690-a9aa-30314d3a0c67",
+      "user_id": "stu-1",
+      "employee_id": "a",
+      "department_id": "1",
+      "designation": "Participation"
+    },
+    {
+      "id": "crs-1",
+      "user_id": "stu-1",
+      "employee_id": "CS501",
+      "department_id": "Database Management Systems",
+      "designation": 4
+    },
+    {
+      "id": "crs-2",
+      "user_id": "stu-1",
+      "employee_id": "CS502",
+      "department_id": "Software Engineering & Agile",
+      "designation": 3
+    },
+    {
+      "id": "crs-3",
+      "user_id": "stu-1",
+      "employee_id": "CS503",
+      "department_id": "Artificial Intelligence & ML",
+      "designation": 4
+    },
+    {
+      "id": "crs-4",
+      "user_id": "stu-1",
+      "employee_id": "CS504",
+      "department_id": "Computer Networks & Security",
+      "designation": 4
+    },
+    {
+      "id": "crs-5",
+      "user_id": "stu-1",
+      "employee_id": "CS505L",
+      "department_id": "Web Development & Cloud Lab",
+      "designation": 2
+    },
+    {
+      "id": "tt-1",
+      "user_id": "stu-1",
+      "employee_id": "Monday",
+      "department_id": "09:15 AM - 10:15 AM",
+      "designation": "CS501"
+    },
+    {
+      "id": "tt-2",
+      "user_id": "stu-1",
+      "employee_id": "Monday",
+      "department_id": "10:15 AM - 11:15 AM",
+      "designation": "CS503"
+    },
+    {
+      "id": "tt-3",
+      "user_id": "stu-1",
+      "employee_id": "Tuesday",
+      "department_id": "09:15 AM - 11:15 AM",
+      "designation": "CS505L"
+    },
+    {
+      "id": "tt-4",
+      "user_id": "stu-1",
+      "employee_id": "Wednesday",
+      "department_id": "11:30 AM - 12:30 PM",
+      "designation": "CS502"
+    },
+    {
+      "id": "tt-5",
+      "user_id": "stu-1",
+      "employee_id": "Thursday",
+      "department_id": "02:00 PM - 04:00 PM",
+      "designation": "CS504"
+    },
+    {
+      "id": "act-8",
+      "user_id": "stu-3",
+      "employee_id": "National Robotics Championship",
+      "department_id": 1,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-9",
+      "user_id": "stu-3",
+      "employee_id": "Industrial Visit - Tata Motors Manufacturing",
+      "department_id": 1,
+      "designation": "Participation"
+    },
+    {
+      "id": "act-10",
+      "user_id": "stu-4",
+      "employee_id": "National B-Plan Business Pitch Contest",
+      "department_id": 1,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-11",
+      "user_id": "stu-4",
+      "employee_id": "Sanjivani E-Cell Vice President",
+      "department_id": 1,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-12",
+      "user_id": "stu-4",
+      "employee_id": "NSS Mega Health & Blood Camp Lead",
+      "department_id": 1,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-13",
+      "user_id": "stu-5",
+      "employee_id": "Inter-College One-Act Drama Play",
+      "department_id": 1,
+      "designation": "Achievement"
+    },
+    {
+      "id": "act-14",
+      "user_id": "stu-5",
+      "employee_id": "College Cultural Fest Volunteer",
+      "department_id": 1,
+      "designation": "Participation"
+    },
+    {
+      "id": "crs-stu-1-0",
+      "user_id": "stu-1",
+      "employee_id": "CS501",
+      "department_id": "Database Management Systems",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-1-1",
+      "user_id": "stu-1",
+      "employee_id": "CS502",
+      "department_id": "Software Engineering & Agile",
+      "designation": 3
+    },
+    {
+      "id": "crs-stu-1-2",
+      "user_id": "stu-1",
+      "employee_id": "CS503",
+      "department_id": "Artificial Intelligence & ML",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-1-3",
+      "user_id": "stu-1",
+      "employee_id": "CS504",
+      "department_id": "Computer Networks & Security",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-1-4",
+      "user_id": "stu-1",
+      "employee_id": "CS505L",
+      "department_id": "Web Development & Cloud Lab",
+      "designation": 2
+    },
+    {
+      "id": "crs-stu-2-0",
+      "user_id": "stu-2",
+      "employee_id": "CS501",
+      "department_id": "Database Management Systems",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-2-1",
+      "user_id": "stu-2",
+      "employee_id": "CS502",
+      "department_id": "Software Engineering & Agile",
+      "designation": 3
+    },
+    {
+      "id": "crs-stu-2-2",
+      "user_id": "stu-2",
+      "employee_id": "CS503",
+      "department_id": "Artificial Intelligence & ML",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-2-3",
+      "user_id": "stu-2",
+      "employee_id": "CS504",
+      "department_id": "Computer Networks & Security",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-2-4",
+      "user_id": "stu-2",
+      "employee_id": "CS505L",
+      "department_id": "Web Development & Cloud Lab",
+      "designation": 2
+    },
+    {
+      "id": "crs-stu-3-0",
+      "user_id": "stu-3",
+      "employee_id": "CS501",
+      "department_id": "Database Management Systems",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-3-1",
+      "user_id": "stu-3",
+      "employee_id": "CS502",
+      "department_id": "Software Engineering & Agile",
+      "designation": 3
+    },
+    {
+      "id": "crs-stu-3-2",
+      "user_id": "stu-3",
+      "employee_id": "CS503",
+      "department_id": "Artificial Intelligence & ML",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-3-3",
+      "user_id": "stu-3",
+      "employee_id": "CS504",
+      "department_id": "Computer Networks & Security",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-3-4",
+      "user_id": "stu-3",
+      "employee_id": "CS505L",
+      "department_id": "Web Development & Cloud Lab",
+      "designation": 2
+    },
+    {
+      "id": "crs-stu-4-0",
+      "user_id": "stu-4",
+      "employee_id": "CS501",
+      "department_id": "Database Management Systems",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-4-1",
+      "user_id": "stu-4",
+      "employee_id": "CS502",
+      "department_id": "Software Engineering & Agile",
+      "designation": 3
+    },
+    {
+      "id": "crs-stu-4-2",
+      "user_id": "stu-4",
+      "employee_id": "CS503",
+      "department_id": "Artificial Intelligence & ML",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-4-3",
+      "user_id": "stu-4",
+      "employee_id": "CS504",
+      "department_id": "Computer Networks & Security",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-4-4",
+      "user_id": "stu-4",
+      "employee_id": "CS505L",
+      "department_id": "Web Development & Cloud Lab",
+      "designation": 2
+    },
+    {
+      "id": "crs-stu-5-0",
+      "user_id": "stu-5",
+      "employee_id": "CS501",
+      "department_id": "Database Management Systems",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-5-1",
+      "user_id": "stu-5",
+      "employee_id": "CS502",
+      "department_id": "Software Engineering & Agile",
+      "designation": 3
+    },
+    {
+      "id": "crs-stu-5-2",
+      "user_id": "stu-5",
+      "employee_id": "CS503",
+      "department_id": "Artificial Intelligence & ML",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-5-3",
+      "user_id": "stu-5",
+      "employee_id": "CS504",
+      "department_id": "Computer Networks & Security",
+      "designation": 4
+    },
+    {
+      "id": "crs-stu-5-4",
+      "user_id": "stu-5",
+      "employee_id": "CS505L",
+      "department_id": "Web Development & Cloud Lab",
+      "designation": 2
+    },
+    {
+      "id": "tt-stu-1-1",
+      "user_id": "stu-1",
+      "employee_id": "Monday",
+      "department_id": "09:15 AM - 10:15 AM",
+      "designation": "CS501"
+    },
+    {
+      "id": "tt-stu-1-2",
+      "user_id": "stu-1",
+      "employee_id": "Monday",
+      "department_id": "10:15 AM - 11:15 AM",
+      "designation": "CS503"
+    },
+    {
+      "id": "tt-stu-1-3",
+      "user_id": "stu-1",
+      "employee_id": "Tuesday",
+      "department_id": "09:15 AM - 11:15 AM",
+      "designation": "CS505L"
+    },
+    {
+      "id": "tt-stu-2-1",
+      "user_id": "stu-2",
+      "employee_id": "Monday",
+      "department_id": "09:15 AM - 10:15 AM",
+      "designation": "CS501"
+    },
+    {
+      "id": "tt-stu-2-2",
+      "user_id": "stu-2",
+      "employee_id": "Monday",
+      "department_id": "10:15 AM - 11:15 AM",
+      "designation": "CS503"
+    },
+    {
+      "id": "tt-stu-2-3",
+      "user_id": "stu-2",
+      "employee_id": "Tuesday",
+      "department_id": "09:15 AM - 11:15 AM",
+      "designation": "CS505L"
+    },
+    {
+      "id": "tt-stu-3-1",
+      "user_id": "stu-3",
+      "employee_id": "Monday",
+      "department_id": "09:15 AM - 10:15 AM",
+      "designation": "CS501"
+    },
+    {
+      "id": "tt-stu-3-2",
+      "user_id": "stu-3",
+      "employee_id": "Monday",
+      "department_id": "10:15 AM - 11:15 AM",
+      "designation": "CS503"
+    },
+    {
+      "id": "tt-stu-3-3",
+      "user_id": "stu-3",
+      "employee_id": "Tuesday",
+      "department_id": "09:15 AM - 11:15 AM",
+      "designation": "CS505L"
+    },
+    {
+      "id": "tt-stu-4-1",
+      "user_id": "stu-4",
+      "employee_id": "Monday",
+      "department_id": "09:15 AM - 10:15 AM",
+      "designation": "CS501"
+    },
+    {
+      "id": "tt-stu-4-2",
+      "user_id": "stu-4",
+      "employee_id": "Monday",
+      "department_id": "10:15 AM - 11:15 AM",
+      "designation": "CS503"
+    },
+    {
+      "id": "tt-stu-4-3",
+      "user_id": "stu-4",
+      "employee_id": "Tuesday",
+      "department_id": "09:15 AM - 11:15 AM",
+      "designation": "CS505L"
+    },
+    {
+      "id": "tt-stu-5-1",
+      "user_id": "stu-5",
+      "employee_id": "Monday",
+      "department_id": "09:15 AM - 10:15 AM",
+      "designation": "CS501"
+    },
+    {
+      "id": "tt-stu-5-2",
+      "user_id": "stu-5",
+      "employee_id": "Monday",
+      "department_id": "10:15 AM - 11:15 AM",
+      "designation": "CS503"
+    },
+    {
+      "id": "tt-stu-5-3",
+      "user_id": "stu-5",
+      "employee_id": "Tuesday",
+      "department_id": "09:15 AM - 11:15 AM",
+      "designation": "CS505L"
+    }
+  ],
+  "activity_categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "description": "Athletic, indoor, and outdoor sports tournaments",
+      "icon": "Trophy",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.921Z"
+    },
+    {
+      "id": 2,
+      "name": "Cultural Activities",
+      "description": "Music, dance, drama, art, and festival performances",
+      "icon": "Music",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.922Z"
+    },
+    {
+      "id": 3,
+      "name": "Technical Events",
+      "description": "Tech fests, robo-wars, and engineering showcases",
+      "icon": "Cpu",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.923Z"
+    },
+    {
+      "id": 4,
+      "name": "Hackathons",
+      "description": "24-48 hr hackathons and product building challenges",
+      "icon": "Code",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.924Z"
+    },
+    {
+      "id": 5,
+      "name": "Coding Competitions",
+      "description": "Competitive programming and algorithmic contests",
+      "icon": "Terminal",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.925Z"
+    },
+    {
+      "id": 6,
+      "name": "Project Competitions",
+      "description": "Hardware & software project exhibits and expos",
+      "icon": "FolderKanban",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.925Z"
+    },
+    {
+      "id": 7,
+      "name": "Paper Presentation",
+      "description": "Research paper presentations at symposia & fests",
+      "icon": "FileText",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.925Z"
+    },
+    {
+      "id": 8,
+      "name": "Poster Presentation",
+      "description": "Academic poster displays and research presentations",
+      "icon": "Layout",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.926Z"
+    },
+    {
+      "id": 9,
+      "name": "Workshops",
+      "description": "Skill-building hands-on workshops and training sessions",
+      "icon": "Wrench",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.926Z"
+    },
+    {
+      "id": 10,
+      "name": "Seminars",
+      "description": "Expert guest lectures and subject matter seminars",
+      "icon": "Presentation",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.926Z"
+    },
+    {
+      "id": 11,
+      "name": "Conferences",
+      "description": "National and international academic conferences",
+      "icon": "Globe",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.926Z"
+    },
+    {
+      "id": 12,
+      "name": "Certifications",
+      "description": "NPTEL, Coursera, AWS, and industry certifications",
+      "icon": "Award",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.927Z"
+    },
+    {
+      "id": 13,
+      "name": "Internships",
+      "description": "Summer/Winter industry internships and apprenticeships",
+      "icon": "Briefcase",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.927Z"
+    },
+    {
+      "id": 14,
+      "name": "Industrial Visits",
+      "description": "Study tours and manufacturing plant visits",
+      "icon": "Building",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.927Z"
+    },
+    {
+      "id": 15,
+      "name": "NSS/Social Activities",
+      "description": "Community service, blood donation, environmental drives",
+      "icon": "HeartHandshake",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.928Z"
+    },
+    {
+      "id": 16,
+      "name": "Club Activities",
+      "description": "Student club organizing and active participation",
+      "icon": "Users",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.928Z"
+    },
+    {
+      "id": 17,
+      "name": "Entrepreneurship",
+      "description": "Startups, E-Cell activities, and business plan pitches",
+      "icon": "Rocket",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.929Z"
+    },
+    {
+      "id": 18,
+      "name": "Leadership Activities",
+      "description": "Student council, event head, class representative duties",
+      "icon": "Crown",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.929Z"
+    },
+    {
+      "id": 19,
+      "name": "Volunteering",
+      "description": "Volunteering for university events and social causes",
+      "icon": "HandHeart",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.929Z"
+    },
+    {
+      "id": 20,
+      "name": "Other",
+      "description": "Miscellaneous co-curricular & extra-curricular events",
+      "icon": "Sparkles",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:00:55.930Z"
+    },
+    {
+      "id": 21,
+      "name": "sport",
+      "description": "",
+      "icon": "Activity",
+      "is_active": 1,
+      "created_at": "2026-09-03T14:09:30.848Z"
+    }
+  ],
+  "activity_levels": [
+    {
+      "id": 1,
+      "name": "Department Level",
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "College/Institute Level",
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "name": "University Level",
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "name": "District Level",
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "name": "State Level",
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "name": "National Level",
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "name": "International Level",
+      "sort_order": 7
+    }
+  ],
+  "activity_points_config": [
+    {
+      "id": 1,
+      "level_name": "Department Level",
+      "activity_type": "Participation",
+      "points": 5
+    },
+    {
+      "id": 2,
+      "level_name": "College/Institute Level",
+      "activity_type": "Participation",
+      "points": 5
+    },
+    {
+      "id": 3,
+      "level_name": "University Level",
+      "activity_type": "Participation",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "level_name": "District Level",
+      "activity_type": "Participation",
+      "points": 15
+    },
+    {
+      "id": 5,
+      "level_name": "State Level",
+      "activity_type": "Participation",
+      "points": 20
+    },
+    {
+      "id": 6,
+      "level_name": "National Level",
+      "activity_type": "Participation",
+      "points": 30
+    },
+    {
+      "id": 7,
+      "level_name": "International Level",
+      "activity_type": "Participation",
+      "points": 40
+    },
+    {
+      "id": 8,
+      "level_name": "Department Level",
+      "activity_type": "Achievement",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "level_name": "College/Institute Level",
+      "activity_type": "Achievement",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "level_name": "University Level",
+      "activity_type": "Achievement",
+      "points": 20
+    },
+    {
+      "id": 11,
+      "level_name": "District Level",
+      "activity_type": "Achievement",
+      "points": 25
+    },
+    {
+      "id": 12,
+      "level_name": "State Level",
+      "activity_type": "Achievement",
+      "points": 30
+    },
+    {
+      "id": 13,
+      "level_name": "National Level",
+      "activity_type": "Achievement",
+      "points": 40
+    },
+    {
+      "id": 14,
+      "level_name": "International Level",
+      "activity_type": "Achievement",
+      "points": 50
+    }
+  ],
+  "performance_thresholds": [
+    {
+      "id": 1,
+      "level_name": "Outstanding",
+      "min_percentage": 90,
+      "max_percentage": 100,
+      "color_code": "#10b981"
+    },
+    {
+      "id": 2,
+      "level_name": "Excellent",
+      "min_percentage": 75,
+      "max_percentage": 89,
+      "color_code": "#3b82f6"
+    },
+    {
+      "id": 3,
+      "level_name": "Very Good",
+      "min_percentage": 60,
+      "max_percentage": 74,
+      "color_code": "#6366f1"
+    },
+    {
+      "id": 4,
+      "level_name": "Good",
+      "min_percentage": 45,
+      "max_percentage": 59,
+      "color_code": "#f59e0b"
+    },
+    {
+      "id": 5,
+      "level_name": "Developing",
+      "min_percentage": 0,
+      "max_percentage": 44,
+      "color_code": "#ef4444"
+    }
+  ],
+  "student_activities": [],
+  "activity_documents": [
+    {
+      "id": "doc-1",
+      "activity_id": "act-1",
+      "file_name": "SIH_2024_Certificate_Yuvraj.pdf",
+      "file_path": "/uploads/sample_certificate.pdf",
+      "file_type": "application/pdf",
+      "file_size": 1048576,
+      "uploaded_at": "2026-09-03T14:00:55.947Z"
+    },
+    {
+      "id": "doc-2",
+      "activity_id": "act-2",
+      "file_name": "AWS_Certified_Architect_Badge.png",
+      "file_path": "/uploads/aws_cert.png",
+      "file_type": "image/png",
+      "file_size": 524288,
+      "uploaded_at": "2026-09-03T14:00:55.948Z"
+    },
+    {
+      "id": "doc-3",
+      "activity_id": "act-3",
+      "file_name": "Cricket_Winner_Certificate.pdf",
+      "file_path": "/uploads/cricket_cert.pdf",
+      "file_type": "application/pdf",
+      "file_size": 842100,
+      "uploaded_at": "2026-09-03T14:00:55.948Z"
+    },
+    {
+      "id": "doc-1",
+      "activity_id": "act-1",
+      "file_name": "SIH_2024_Certificate_Yuvraj.pdf",
+      "file_path": "/uploads/sample_certificate.pdf",
+      "file_type": "application/pdf",
+      "file_size": 1048576,
+      "uploaded_at": "2026-09-03T14:01:29.449Z"
+    },
+    {
+      "id": "doc-2",
+      "activity_id": "act-2",
+      "file_name": "AWS_Certified_Architect_Badge.png",
+      "file_path": "/uploads/aws_cert.png",
+      "file_type": "image/png",
+      "file_size": 524288,
+      "uploaded_at": "2026-09-03T14:01:29.450Z"
+    },
+    {
+      "id": "doc-3",
+      "activity_id": "act-3",
+      "file_name": "Cricket_Winner_Certificate.pdf",
+      "file_path": "/uploads/cricket_cert.pdf",
+      "file_type": "application/pdf",
+      "file_size": 842100,
+      "uploaded_at": "2026-09-03T14:01:29.451Z"
+    },
+    {
+      "id": "doc-fa8bc5b9-f70a-4c38-9471-d0cb12909619",
+      "activity_id": "act-eaaca53a-5fdf-4690-a9aa-30314d3a0c67",
+      "file_name": "YuvrajGaikwad_Resume.pdf",
+      "file_path": "/uploads/proof_document-1788444694291-320346037.pdf",
+      "file_type": "application/pdf",
+      "file_size": 358142,
+      "uploaded_at": "2026-09-03T14:11:34.304Z"
+    }
+  ],
+  "activity_reports": [],
+  "student_courses": [],
+  "student_attendance": [
+    {
+      "id": "att-1",
+      "student_id": "stu-1",
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "total_conducted": 38,
+      "total_attended": 35,
+      "percentage": 92
+    },
+    {
+      "id": "att-2",
+      "student_id": "stu-1",
+      "course_code": "CS502",
+      "course_name": "Software Engineering & Agile",
+      "total_conducted": 32,
+      "total_attended": 29,
+      "percentage": 91
+    },
+    {
+      "id": "att-3",
+      "student_id": "stu-1",
+      "course_code": "CS503",
+      "course_name": "Artificial Intelligence & ML",
+      "total_conducted": 40,
+      "total_attended": 34,
+      "percentage": 85
+    },
+    {
+      "id": "att-4",
+      "student_id": "stu-1",
+      "course_code": "CS504",
+      "course_name": "Computer Networks & Security",
+      "total_conducted": 36,
+      "total_attended": 30,
+      "percentage": 83
+    },
+    {
+      "id": "att-5",
+      "student_id": "stu-1",
+      "course_code": "CS505L",
+      "course_name": "Web Development & Cloud Lab",
+      "total_conducted": 20,
+      "total_attended": 18,
+      "percentage": 90
+    },
+    {
+      "id": "att-stu-1-0",
+      "student_id": "stu-1",
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "total_conducted": 40,
+      "total_attended": 36,
+      "percentage": 90
+    },
+    {
+      "id": "att-stu-1-1",
+      "student_id": "stu-1",
+      "course_code": "CS502",
+      "course_name": "Software Engineering & Agile",
+      "total_conducted": 40,
+      "total_attended": 36,
+      "percentage": 90
+    },
+    {
+      "id": "att-stu-1-2",
+      "student_id": "stu-1",
+      "course_code": "CS503",
+      "course_name": "Artificial Intelligence & ML",
+      "total_conducted": 40,
+      "total_attended": 36,
+      "percentage": 90
+    },
+    {
+      "id": "att-stu-1-3",
+      "student_id": "stu-1",
+      "course_code": "CS504",
+      "course_name": "Computer Networks & Security",
+      "total_conducted": 40,
+      "total_attended": 36,
+      "percentage": 90
+    },
+    {
+      "id": "att-stu-1-4",
+      "student_id": "stu-1",
+      "course_code": "CS505L",
+      "course_name": "Web Development & Cloud Lab",
+      "total_conducted": 40,
+      "total_attended": 36,
+      "percentage": 90
+    },
+    {
+      "id": "att-stu-2-0",
+      "student_id": "stu-2",
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "total_conducted": 40,
+      "total_attended": 38,
+      "percentage": 95
+    },
+    {
+      "id": "att-stu-2-1",
+      "student_id": "stu-2",
+      "course_code": "CS502",
+      "course_name": "Software Engineering & Agile",
+      "total_conducted": 40,
+      "total_attended": 38,
+      "percentage": 95
+    },
+    {
+      "id": "att-stu-2-2",
+      "student_id": "stu-2",
+      "course_code": "CS503",
+      "course_name": "Artificial Intelligence & ML",
+      "total_conducted": 40,
+      "total_attended": 38,
+      "percentage": 95
+    },
+    {
+      "id": "att-stu-2-3",
+      "student_id": "stu-2",
+      "course_code": "CS504",
+      "course_name": "Computer Networks & Security",
+      "total_conducted": 40,
+      "total_attended": 38,
+      "percentage": 95
+    },
+    {
+      "id": "att-stu-2-4",
+      "student_id": "stu-2",
+      "course_code": "CS505L",
+      "course_name": "Web Development & Cloud Lab",
+      "total_conducted": 40,
+      "total_attended": 38,
+      "percentage": 95
+    },
+    {
+      "id": "att-stu-3-0",
+      "student_id": "stu-3",
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "total_conducted": 40,
+      "total_attended": 31,
+      "percentage": 78
+    },
+    {
+      "id": "att-stu-3-1",
+      "student_id": "stu-3",
+      "course_code": "CS502",
+      "course_name": "Software Engineering & Agile",
+      "total_conducted": 40,
+      "total_attended": 31,
+      "percentage": 78
+    },
+    {
+      "id": "att-stu-3-2",
+      "student_id": "stu-3",
+      "course_code": "CS503",
+      "course_name": "Artificial Intelligence & ML",
+      "total_conducted": 40,
+      "total_attended": 31,
+      "percentage": 78
+    },
+    {
+      "id": "att-stu-3-3",
+      "student_id": "stu-3",
+      "course_code": "CS504",
+      "course_name": "Computer Networks & Security",
+      "total_conducted": 40,
+      "total_attended": 31,
+      "percentage": 78
+    },
+    {
+      "id": "att-stu-3-4",
+      "student_id": "stu-3",
+      "course_code": "CS505L",
+      "course_name": "Web Development & Cloud Lab",
+      "total_conducted": 40,
+      "total_attended": 31,
+      "percentage": 78
+    },
+    {
+      "id": "att-stu-4-0",
+      "student_id": "stu-4",
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "total_conducted": 40,
+      "total_attended": 37,
+      "percentage": 93
+    },
+    {
+      "id": "att-stu-4-1",
+      "student_id": "stu-4",
+      "course_code": "CS502",
+      "course_name": "Software Engineering & Agile",
+      "total_conducted": 40,
+      "total_attended": 37,
+      "percentage": 93
+    },
+    {
+      "id": "att-stu-4-2",
+      "student_id": "stu-4",
+      "course_code": "CS503",
+      "course_name": "Artificial Intelligence & ML",
+      "total_conducted": 40,
+      "total_attended": 37,
+      "percentage": 93
+    },
+    {
+      "id": "att-stu-4-3",
+      "student_id": "stu-4",
+      "course_code": "CS504",
+      "course_name": "Computer Networks & Security",
+      "total_conducted": 40,
+      "total_attended": 37,
+      "percentage": 93
+    },
+    {
+      "id": "att-stu-4-4",
+      "student_id": "stu-4",
+      "course_code": "CS505L",
+      "course_name": "Web Development & Cloud Lab",
+      "total_conducted": 40,
+      "total_attended": 37,
+      "percentage": 93
+    },
+    {
+      "id": "att-stu-5-0",
+      "student_id": "stu-5",
+      "course_code": "CS501",
+      "course_name": "Database Management Systems",
+      "total_conducted": 40,
+      "total_attended": 29,
+      "percentage": 73
+    },
+    {
+      "id": "att-stu-5-1",
+      "student_id": "stu-5",
+      "course_code": "CS502",
+      "course_name": "Software Engineering & Agile",
+      "total_conducted": 40,
+      "total_attended": 29,
+      "percentage": 73
+    },
+    {
+      "id": "att-stu-5-2",
+      "student_id": "stu-5",
+      "course_code": "CS503",
+      "course_name": "Artificial Intelligence & ML",
+      "total_conducted": 40,
+      "total_attended": 29,
+      "percentage": 73
+    },
+    {
+      "id": "att-stu-5-3",
+      "student_id": "stu-5",
+      "course_code": "CS504",
+      "course_name": "Computer Networks & Security",
+      "total_conducted": 40,
+      "total_attended": 29,
+      "percentage": 73
+    },
+    {
+      "id": "att-stu-5-4",
+      "student_id": "stu-5",
+      "course_code": "CS505L",
+      "course_name": "Web Development & Cloud Lab",
+      "total_conducted": 40,
+      "total_attended": 29,
+      "percentage": 73
+    }
+  ],
+  "student_fees": [
+    {
+      "id": "fee-1",
+      "student_id": "stu-1",
+      "academic_year": "2024-2025",
+      "tuition_fee": 115000,
+      "development_fee": 15000,
+      "total_fee": 130000,
+      "amount_paid": 130000,
+      "balance_due": 0,
+      "payment_status": "Paid in Full"
+    },
+    {
+      "id": "fee-stu-1",
+      "student_id": "stu-1",
+      "academic_year": "2024-2025",
+      "tuition_fee": 115000,
+      "development_fee": 15000,
+      "total_fee": 130000,
+      "amount_paid": 130000,
+      "balance_due": 0,
+      "payment_status": "Paid in Full"
+    },
+    {
+      "id": "fee-stu-2",
+      "student_id": "stu-2",
+      "academic_year": "2024-2025",
+      "tuition_fee": 115000,
+      "development_fee": 15000,
+      "total_fee": 130000,
+      "amount_paid": 130000,
+      "balance_due": 0,
+      "payment_status": "Paid in Full"
+    },
+    {
+      "id": "fee-stu-3",
+      "student_id": "stu-3",
+      "academic_year": "2024-2025",
+      "tuition_fee": 115000,
+      "development_fee": 15000,
+      "total_fee": 130000,
+      "amount_paid": 90000,
+      "balance_due": 40000,
+      "payment_status": "Partially Paid (Rs 40k Due)"
+    },
+    {
+      "id": "fee-stu-4",
+      "student_id": "stu-4",
+      "academic_year": "2024-2025",
+      "tuition_fee": 115000,
+      "development_fee": 15000,
+      "total_fee": 130000,
+      "amount_paid": 150000,
+      "balance_due": -20000,
+      "payment_status": "Paid in Full"
+    },
+    {
+      "id": "fee-stu-5",
+      "student_id": "stu-5",
+      "academic_year": "2024-2025",
+      "tuition_fee": 115000,
+      "development_fee": 15000,
+      "total_fee": 130000,
+      "amount_paid": 70000,
+      "balance_due": 60000,
+      "payment_status": "Defaulter (Rs 60k Due)"
+    }
+  ],
+  "student_grades": [
+    {
+      "id": "grd-1",
+      "student_id": "stu-1",
+      "semester": "Semester 4",
+      "course_code": "CS401",
+      "course_name": "Data Structures & Algorithms",
+      "internal_marks": 28,
+      "end_sem_marks": 62,
+      "total_marks": 90,
+      "grade": "O (Outstanding)",
+      "sgpa": 9.1,
+      "cgpa": 8.82
+    },
+    {
+      "id": "grd-2",
+      "student_id": "stu-1",
+      "semester": "Semester 4",
+      "course_code": "CS402",
+      "course_name": "Operating Systems Concepts",
+      "internal_marks": 26,
+      "end_sem_marks": 58,
+      "total_marks": 84,
+      "grade": "A+ (Excellent)",
+      "sgpa": 8.8,
+      "cgpa": 8.82
+    },
+    {
+      "id": "grd-3",
+      "student_id": "stu-1",
+      "semester": "Semester 4",
+      "course_code": "CS403",
+      "course_name": "Theory of Computation",
+      "internal_marks": 27,
+      "end_sem_marks": 56,
+      "total_marks": 83,
+      "grade": "A+ (Excellent)",
+      "sgpa": 8.7,
+      "cgpa": 8.82
+    },
+    {
+      "id": "grd-4",
+      "student_id": "stu-1",
+      "semester": "Semester 4",
+      "course_code": "CS404",
+      "course_name": "Object Oriented Programming",
+      "internal_marks": 29,
+      "end_sem_marks": 64,
+      "total_marks": 93,
+      "grade": "O (Outstanding)",
+      "sgpa": 9.2,
+      "cgpa": 8.82
+    },
+    {
+      "id": "grd-stu-1-1",
+      "student_id": "stu-1",
+      "semester": "Semester 4",
+      "course_code": "CS401",
+      "course_name": "Core Course 1",
+      "internal_marks": 28,
+      "end_sem_marks": 62,
+      "total_marks": 90,
+      "grade": "O",
+      "sgpa": 9.1,
+      "cgpa": 8.82
+    },
+    {
+      "id": "grd-stu-1-2",
+      "student_id": "stu-1",
+      "semester": "Semester 4",
+      "course_code": "CS402",
+      "course_name": "Core Course 2",
+      "internal_marks": 26,
+      "end_sem_marks": 58,
+      "total_marks": 84,
+      "grade": "A+",
+      "sgpa": 9.1,
+      "cgpa": 8.82
+    },
+    {
+      "id": "grd-stu-2-1",
+      "student_id": "stu-2",
+      "semester": "Semester 4",
+      "course_code": "CS401",
+      "course_name": "Core Course 1",
+      "internal_marks": 28,
+      "end_sem_marks": 62,
+      "total_marks": 90,
+      "grade": "O",
+      "sgpa": 9.6,
+      "cgpa": 9.45
+    },
+    {
+      "id": "grd-stu-2-2",
+      "student_id": "stu-2",
+      "semester": "Semester 4",
+      "course_code": "CS402",
+      "course_name": "Core Course 2",
+      "internal_marks": 26,
+      "end_sem_marks": 58,
+      "total_marks": 84,
+      "grade": "A+",
+      "sgpa": 9.6,
+      "cgpa": 9.45
+    },
+    {
+      "id": "grd-stu-3-1",
+      "student_id": "stu-3",
+      "semester": "Semester 4",
+      "course_code": "CS401",
+      "course_name": "Core Course 1",
+      "internal_marks": 28,
+      "end_sem_marks": 62,
+      "total_marks": 90,
+      "grade": "A+",
+      "sgpa": 8.1,
+      "cgpa": 7.92
+    },
+    {
+      "id": "grd-stu-3-2",
+      "student_id": "stu-3",
+      "semester": "Semester 4",
+      "course_code": "CS402",
+      "course_name": "Core Course 2",
+      "internal_marks": 26,
+      "end_sem_marks": 58,
+      "total_marks": 84,
+      "grade": "A",
+      "sgpa": 8.1,
+      "cgpa": 7.92
+    },
+    {
+      "id": "grd-stu-4-1",
+      "student_id": "stu-4",
+      "semester": "Semester 4",
+      "course_code": "CS401",
+      "course_name": "Core Course 1",
+      "internal_marks": 28,
+      "end_sem_marks": 62,
+      "total_marks": 90,
+      "grade": "O",
+      "sgpa": 9,
+      "cgpa": 8.9
+    },
+    {
+      "id": "grd-stu-4-2",
+      "student_id": "stu-4",
+      "semester": "Semester 4",
+      "course_code": "CS402",
+      "course_name": "Core Course 2",
+      "internal_marks": 26,
+      "end_sem_marks": 58,
+      "total_marks": 84,
+      "grade": "A+",
+      "sgpa": 9,
+      "cgpa": 8.9
+    },
+    {
+      "id": "grd-stu-5-1",
+      "student_id": "stu-5",
+      "semester": "Semester 4",
+      "course_code": "CS401",
+      "course_name": "Core Course 1",
+      "internal_marks": 28,
+      "end_sem_marks": 62,
+      "total_marks": 90,
+      "grade": "A+",
+      "sgpa": 7,
+      "cgpa": 6.85
+    },
+    {
+      "id": "grd-stu-5-2",
+      "student_id": "stu-5",
+      "semester": "Semester 4",
+      "course_code": "CS402",
+      "course_name": "Core Course 2",
+      "internal_marks": 26,
+      "end_sem_marks": 58,
+      "total_marks": 84,
+      "grade": "A",
+      "sgpa": 7,
+      "cgpa": 6.85
+    }
+  ],
+  "student_timetable": [],
+  "university_notices": [
+    {
+      "id": "not-1",
+      "title": "Schedule for End-Semester Mid-Term Examinations (Sem 5)",
+      "category": "Exam",
+      "notice_date": "2024-12-01",
+      "content": "Mid-Term Examinations for B.Tech Semester 5 will commence from 15th December 2024. All students are instructed to clear dues.",
+      "is_important": 1
+    },
+    {
+      "id": "not-2",
+      "title": "Felicitation of Smart India Hackathon Winners by Hon. Vice Chancellor",
+      "category": "Academic",
+      "notice_date": "2024-11-22",
+      "content": "Sanjivani University congratulates team lead Yuvraj Gaikwad for securing 1st Runner Up in SIH 2024.",
+      "is_important": 1
+    },
+    {
+      "id": "not-3",
+      "title": "Registration Open for Sanjivani Annual Sports & TechFest 2025",
+      "category": "General",
+      "notice_date": "2024-11-10",
+      "content": "Students can register for college fests through the Student ERP portal extra-curricular module.",
+      "is_important": 0
+    }
+  ]
+}
